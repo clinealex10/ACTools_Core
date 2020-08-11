@@ -4,18 +4,18 @@
 ## [Unreleased]
 
 <hr/>
+
 ## [1.0.0] - 2020-08-11
 <br/>
-###Additions
-<br/>
+
+### Additions:
 <ul>
 	<li>README.md was created to provide information to users.</il>
 	<li>CHANGELOG.md was created to track changes.</il>
 	<li>AC_Tools.md was created for documentation.</il>
 </ul>
-<br/>
-### Changes
-<br/>
+
+### Changes:
 <ul>
 	<li>Package was added to GitHub and the start of the version tracking.</il>
 	<li>Renamed Event.cs to CustomUnityEvents.cs.</il>
