@@ -13,7 +13,7 @@
 <ul>
 	<li>README.md was created to provide information to users.</il>
 	<li>CHANGELOG.md was created to track changes.</il>
-	<li>AC_Tools.md was created for documentation.</il>
+	<li>ACTools_Core.md was created for documentation.</il>
 </ul>
 
 ### Changes:
