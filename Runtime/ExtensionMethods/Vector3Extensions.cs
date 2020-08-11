@@ -54,9 +54,9 @@ public static class Vector3Extensions
 
     /// <summary> Replaces the current values of this Vector3 with any given values. </summary>
     /// <param name="original"> This Vector3. </param>
-    /// <param name="x"> The value to replace x, if any. </param>
-    /// <param name="y"> The value to replace y, if any. </param>
-    /// <param name="z"> The value to replace z, if any. </param>
+    /// <param name="x"> The value to replace this Vector2.x, if any. </param>
+    /// <param name="y"> The value to replace this Vector2.y, if any. </param>
+    /// <param name="z"> The value to replace this Vector2.z, if any. </param>
     public static void With(this ref Vector3 original, float? x = null, float? y = null, float? z = null)
     {
         original = new Vector3(x ?? original.x, y ?? original.y, z ?? original.z);

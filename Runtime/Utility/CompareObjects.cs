@@ -6,7 +6,7 @@ public static class CompareObjects
     /// <typeparam name="T"> The types of objects being compared. </typeparam>
     /// <param name="x"> One of the objects to be compared. </param>
     /// <param name="y"> The other object to be compared. </param>
-    /// <returns> 0 if they are equal, a negative number if x precedes y, a positive number if x comes after y. </returns>
+    /// <returns> Returns zero if they are equal, a negative number if x precedes y, a positive number if x comes after y. </returns>
     public static int ByName<T>(T x, T y) where T : Object
     {
         if (x == null)  // If one or both values are null.

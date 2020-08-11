@@ -17,7 +17,7 @@ public static class VisualElementExtensions
     /// <typeparam name="T"> Type of this visual element. </typeparam>
     /// <param name="element"> This visual element. </param>
     /// <param name="name"> Name of this visual element. </param>
-    /// <param name="ussClass"> Classes to add to this visual element. </param>
+    /// <param name="ussClasses"> Classes to add to this visual element. </param>
     public static void VisualElementSetup<T>(this T element, string name, string[] ussClasses) where T : VisualElement
     {
         element.name = name;
