@@ -24,7 +24,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Unity Editor Version (please complete the following information):**
- - Version: Unity 2019.4.3f1
+ - Version: [e.g. Unity 2019.4.3f1]
 
 **Platform (please complete the following information):**
  - Platform: [e.g. StandaloneWindows64]
