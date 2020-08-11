@@ -1,7 +1,9 @@
 ## ACTools: Core
 <p>
   This package contains core parts to ACTools packages. This includes things like extension methods, custom attributes, and dependencies for other ACTools that are made.
-  The goal of this repo is to serve as a hub for my preferred utility scripts that I add to just about any Unity Project. It also serves as a bases for other tools/library I make. Feel free to use it for whatever. If you wouldn't mind, please credit me. It would be appreciated!
+  The goal of this repo is to serve as a hub for my preferred utility scripts that I add to just about any Unity Project. It also serves as a bases for other tools/library I make. 
+  <br/>
+  Feel free to use it for whatever. If you wouldn't mind, please credit me. It would be appreciated!
 </p>
 
 ## Installation:
