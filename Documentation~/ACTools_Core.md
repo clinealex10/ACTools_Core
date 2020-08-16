@@ -1,18 +1,14 @@
 # ACTools: Core
-<hr/>
+<br>
 
 ## Custom Attributes
-<hr/>
-### public class ReadOnlyAttribute
-<br>
+### Read Only
 <p>This attribute disables the serialized field it is attact to, making it appear in the inspect but making it impossible to edit in the inspector.
 <br>
 <hr/>
 
 ## Events
-<hr/>
 ### Custom UnityEvents
-<br>
 <ul>
 	<li>
 		<p>public class StringEvent : UnityEvent<string></p>
@@ -25,9 +21,7 @@
 <hr/>
 
 ## Extension Methods
-<hr/>
 ### Color Extensions
-<br>
 <ul>
 	<li>
 		<p>public void ChangeAlphaTo(float alphaValue)</p>
@@ -41,8 +35,8 @@
 	</li>
 </ul>
 <hr/>
+
 ### Debug Extensions
-<br>
 <p><b>Note: As there is no Debug object to extend, all of the Debug extension methods are in a public static class called <i>DebugExtensions</i>.<b></p>
 <ul>
 	<li>
@@ -86,8 +80,8 @@
 	</li>
 </ul>
 <hr/>
+	
 ### NavMesh Agent Extensions
-<br>
 <ul>
 	<li>
 		<p>public NavMeshPath GetPathTo(Vector3 endPosition, int passableMask)</p>
@@ -98,8 +92,8 @@
 	</li>
 </ul>
 <hr/>
+
 ### NavMesh Path Extensions
-<br>
 <p><b>Note: Some of the methods here were found in a post on this forum: <i>https://forum.unity.com/threads/getting-the-distance-in-nav-mesh.315846/</i>.<b></p>
 <ul>
 	<li>
@@ -131,8 +125,8 @@
 	</li>
 </ul>
 <hr/>
+	
 ### Transform Extensions
-<br>
 <ul>
 	<li>
 		<p>public Vector3 DirectionTo(Transform destination)</p>
@@ -150,7 +144,6 @@
 </ul>
 <hr/>
 ### Vector2 Extensions
-<br>
 <ul>
 	<li>
 		<p>public bool AreAllValuesEqual()</p>
@@ -186,8 +179,8 @@
 	</li>
 </ul>
 <hr/>
+
 ### Vector3 Extensions
-<br>
 <ul>
 	<li>
 		<p>public bool AreAllValuesEqual()</p>
@@ -228,8 +221,8 @@
 	</li>
 </ul>
 <hr/>
+
 ### VisualElement Extensions
-<br>
 <ul>
 	<li>
 		<p>public void VisualElementSetup<T>(string name, string ussClass) where T : VisualElement</p>
@@ -249,9 +242,7 @@
 <hr/>
 
 ## Utility
-<hr/>
 ### public static class CompareObjects
-<br>
 <ul>
 	<li>
 		<p>public static int ByName<T>(T x, T y) where T : Object</p>
