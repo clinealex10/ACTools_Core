@@ -143,6 +143,7 @@
 	</li>
 </ul>
 <hr/>
+
 ### Vector2 Extensions
 <ul>
 	<li>
