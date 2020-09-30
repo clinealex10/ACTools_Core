@@ -19,13 +19,10 @@ public static class FolderUtility
 
         for (int index1 = 1; index1 < folders.Length; index1++)    // Loops through folder names to adjust the value of the tempPath.
         {
-            for (int index2 = 1; index2 <= index1; index2++)    // Adds to the tempPath to be checked.
-            {
-                tempPath += "/" + folders[index2];
-            }
+            if (!AssetDatabase.IsValidFolder(tempPath + "/" + folders[index1]))
+                AssetDatabase.CreateFolder(tempPath, folders[index1]);
 
-            if (!AssetDatabase.IsValidFolder(tempPath)) // Checks to see if the tempPath does not exist.
-                AssetDatabase.CreateFolder(folders[index1 - 1], folders[index1]);
+            tempPath += "/" + folders[index1];
         }
     }
     
