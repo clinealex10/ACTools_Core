@@ -9,6 +9,15 @@
 </ul>
 <hr/>
 
+## [1.1.1] - 2021-04-11
+
+### Changes:
+<ul>
+	<li>Updated ACTools_Core.md file.</il>
+	<li>Updated package.json file.</il>
+</ul>
+<hr/>
+
 ## [1.1.0] - 2021-04-09
 
 ### Additions:
