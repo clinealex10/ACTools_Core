@@ -3,9 +3,14 @@
 
 ## [Unreleased Changes]
 
+### Additions:
+<ul>
+	<li> FlexibleGridLayout.cs added to ACTools.Core. </il>
+</ul>
+
 ### Changes:
 <ul>
-	<li> </il>
+	<li> Updated package.json file. </il>
 </ul>
 <hr/>
 
