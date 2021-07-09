@@ -9,6 +9,14 @@
 </ul>
 <hr/>
 
+## [1.2.1 - 2021-08-07]
+
+### Changes:
+<ul>
+	<li> Assemblies no longer use GUIDs for assembly references. </il>
+</ul>
+<hr/>
+
 ## [1.2.0 - 2021-04-13]
 
 ### Additions:
